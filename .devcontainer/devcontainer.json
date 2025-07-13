@@ -13,7 +13,7 @@
         "version": "latest"
     }
   },
-  "postCreateCommand": "supabase link --project-ref localapp && supabase start",
+  "postCreateCommand": "supabase start",
   "forwardPorts": [3000, 54321, 54322, 8000],
   "remoteEnv": {
     //  These load automatically from your repo-level secrets

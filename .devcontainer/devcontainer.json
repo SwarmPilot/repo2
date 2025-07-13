@@ -10,7 +10,7 @@
     },
     "ghcr.io/devcontainers/features/docker-in-docker:1": {}
   },
-  "postCreateCommand": "supabase link --project-ref local-dev && supabase start",
+  "postCreateCommand": "supabase link --project-ref localdev && supabase start",
   "forwardPorts": [3000, 54321, 54322, 8000],
   "remoteEnv": {
     //  These load automatically from your repo-level secrets

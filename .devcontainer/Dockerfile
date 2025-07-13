@@ -1,7 +1,7 @@
 FROM node:20-bookworm
 
 # 1. install pnpm & utilities
-RUN corepack enable && pnpm setup
+RUN corepack enable && corepack prepare pnpm@latest --activate
 
 # 2. supabase cli for local stack + migrations
 RUN npm i -g supabase@latest

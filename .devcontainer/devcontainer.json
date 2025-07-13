@@ -1,7 +1,7 @@
 {
   "name": "next-supabase",
   "build": {
-    "dockerfile": "Dockerfile",
+    "dockerfile": "../Dockerfile",
     "context": ".."
   },
   "features": {
